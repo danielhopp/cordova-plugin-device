@@ -17,6 +17,8 @@
          under the License.
 -->
 
+# This fork provides `device.name` from iOS devices, which [has been removed since Cordova 2.3.0](https://shazronatadobe.wordpress.com/2012/12/10/whats-new-in-cordova-ios-2-3-0/).
+˘
 # cordova-plugin-device
 
 [![Build Status](https://travis-ci.org/apache/cordova-plugin-device.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-device)
@@ -217,4 +219,3 @@ Get the operating system version.
     // Windows Phone 7: returns current OS version number, ex. on Mango returns 7.10.7720
     // Tizen: returns "TIZEN_20120425_2"
     var deviceVersion = device.version;
-
